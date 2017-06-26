@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'MJOMisionCba' do
+
+	pod 'AFNetworking'
+	pod 'SVProgressHUD'
+
+  	target 'MJOMisionCbaTests' do
+    	inherit! :search_paths
+     		pod 'OCMock', '3.1.1'
+  	end
+
+end

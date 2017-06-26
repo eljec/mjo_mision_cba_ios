@@ -13,6 +13,8 @@
 		14F00FBF1F019B2500E46086 /* MJOMisionCbaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F00FBE1F019B2500E46086 /* MJOMisionCbaTests.m */; };
 		14F00FCD1F019BE700E46086 /* MJOMCbaSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F00FCB1F019BE700E46086 /* MJOMCbaSectionViewController.m */; };
 		14F00FCE1F019BE700E46086 /* MJOMCbaSectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F00FCC1F019BE700E46086 /* MJOMCbaSectionViewController.xib */; };
+		53B2E6FBD44FC1CA5587E2D5 /* libPods-MJOMisionCba.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A3D3EC9C9DF99DCF8CD4E7 /* libPods-MJOMisionCba.a */; };
+		F3E87CB48450E3AD20BAF262 /* libPods-MJOMisionCbaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87AE6FB830A4CD9A08C37675 /* libPods-MJOMisionCbaTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041408DF5116F5E3AB185B84 /* Pods-MJOMisionCba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJOMisionCba.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJOMisionCba/Pods-MJOMisionCba.release.xcconfig"; sourceTree = "<group>"; };
 		14F00FA11F019B2500E46086 /* MJOMisionCba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJOMisionCba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F00FA51F019B2500E46086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14F00FA71F019B2500E46086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +41,11 @@
 		14F00FCA1F019BE700E46086 /* MJOMCbaSectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJOMCbaSectionViewController.h; sourceTree = "<group>"; };
 		14F00FCB1F019BE700E46086 /* MJOMCbaSectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJOMCbaSectionViewController.m; sourceTree = "<group>"; };
 		14F00FCC1F019BE700E46086 /* MJOMCbaSectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJOMCbaSectionViewController.xib; sourceTree = "<group>"; };
+		1A5F273DCE764905D335F499 /* Pods-MJOMisionCbaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJOMisionCbaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJOMisionCbaTests/Pods-MJOMisionCbaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87AE6FB830A4CD9A08C37675 /* libPods-MJOMisionCbaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJOMisionCbaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16E2653F884B3AAD9FEDF8C /* Pods-MJOMisionCba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJOMisionCba.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJOMisionCba/Pods-MJOMisionCba.debug.xcconfig"; sourceTree = "<group>"; };
+		C8A3D3EC9C9DF99DCF8CD4E7 /* libPods-MJOMisionCba.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJOMisionCba.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4F90BCCCFCD8B8AD422664 /* Pods-MJOMisionCbaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJOMisionCbaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJOMisionCbaTests/Pods-MJOMisionCbaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B2E6FBD44FC1CA5587E2D5 /* libPods-MJOMisionCba.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E87CB48450E3AD20BAF262 /* libPods-MJOMisionCbaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				14F00FA31F019B2500E46086 /* MJOMisionCba */,
 				14F00FBD1F019B2500E46086 /* MJOMisionCbaTests */,
 				14F00FA21F019B2500E46086 /* Products */,
+				3603F5F46D22981A93E56639 /* Pods */,
+				58C150B50CD47BCABFA88ABA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +128,26 @@
 			path = Sections;
 			sourceTree = "<group>";
 		};
+		3603F5F46D22981A93E56639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C16E2653F884B3AAD9FEDF8C /* Pods-MJOMisionCba.debug.xcconfig */,
+				041408DF5116F5E3AB185B84 /* Pods-MJOMisionCba.release.xcconfig */,
+				1A5F273DCE764905D335F499 /* Pods-MJOMisionCbaTests.debug.xcconfig */,
+				EC4F90BCCCFCD8B8AD422664 /* Pods-MJOMisionCbaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58C150B50CD47BCABFA88ABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A3D3EC9C9DF99DCF8CD4E7 /* libPods-MJOMisionCba.a */,
+				87AE6FB830A4CD9A08C37675 /* libPods-MJOMisionCbaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F00FC31F019B2500E46086 /* Build configuration list for PBXNativeTarget "MJOMisionCba" */;
 			buildPhases = (
+				FC9BFE3C99796F5A28133E67 /* [CP] Check Pods Manifest.lock */,
 				14F00F9D1F019B2500E46086 /* Sources */,
 				14F00F9E1F019B2500E46086 /* Frameworks */,
 				14F00F9F1F019B2500E46086 /* Resources */,
+				322F30478E1916AC40AB8304 /* [CP] Embed Pods Frameworks */,
+				BB60137BEBA96CC505589F2B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14F00FC61F019B2500E46086 /* Build configuration list for PBXNativeTarget "MJOMisionCbaTests" */;
 			buildPhases = (
+				276421B04B102512061C108E /* [CP] Check Pods Manifest.lock */,
 				14F00FB61F019B2500E46086 /* Sources */,
 				14F00FB71F019B2500E46086 /* Frameworks */,
 				14F00FB81F019B2500E46086 /* Resources */,
+				BA0938EC45119E7C44469F89 /* [CP] Embed Pods Frameworks */,
+				923B5682C9379B981D576227 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +251,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		276421B04B102512061C108E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		322F30478E1916AC40AB8304 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJOMisionCba/Pods-MJOMisionCba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		923B5682C9379B981D576227 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJOMisionCbaTests/Pods-MJOMisionCbaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA0938EC45119E7C44469F89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJOMisionCbaTests/Pods-MJOMisionCbaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB60137BEBA96CC505589F2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJOMisionCba/Pods-MJOMisionCba-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9BFE3C99796F5A28133E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		14F00F9D1F019B2500E46086 /* Sources */ = {
@@ -338,6 +469,7 @@
 		};
 		14F00FC41F019B2500E46086 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16E2653F884B3AAD9FEDF8C /* Pods-MJOMisionCba.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2V7JY55N65;
@@ -352,6 +484,7 @@
 		};
 		14F00FC51F019B2500E46086 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 041408DF5116F5E3AB185B84 /* Pods-MJOMisionCba.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2V7JY55N65;
@@ -366,6 +499,7 @@
 		};
 		14F00FC71F019B2500E46086 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5F273DCE764905D335F499 /* Pods-MJOMisionCbaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 2V7JY55N65;
@@ -379,6 +513,7 @@
 		};
 		14F00FC81F019B2500E46086 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4F90BCCCFCD8B8AD422664 /* Pods-MJOMisionCbaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 2V7JY55N65;
